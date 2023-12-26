@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Doodle+Shadow&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #454545;
+  font-family: "Rubik Doodle Shadow";
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+input {
+  padding: 10px 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+#result {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
