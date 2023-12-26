@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background-color: #454545;
+  background-color: #565656;
   font-family: "Rubik Doodle Shadow";
 }
 
@@ -21,18 +21,22 @@ body {
   font-size: 40px;
   text-align: center;
   padding: 10px;
+  color: black;
 }
 form {
   display: flex;
   gap: 10px;
   flex-direction: column;
 }
-input {
+#input {
   padding: 10px 5px;
   text-align: center;
   border: none;
   border-radius: 5px;
   font-size: 24px;
+}
+#submit{
+    padding: 10px 5px;
 }
 
 #result {
